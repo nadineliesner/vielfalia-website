@@ -101,4 +101,12 @@ main{
   box-sizing: border-box;
   }
 
+/* Gestaltung der Kachel */
+.kachel a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
 
