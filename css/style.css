@@ -11,7 +11,11 @@ header {
 }
  
 /* Themenkacheln */
-.kacheln {
+.kacheln img {
+  width: 100%;
+  height: 180px;
+  objekt-fit: cover;
+  border-radius: 15px
   display: grid;
   gap: 20px;
 }
