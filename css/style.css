@@ -3,6 +3,13 @@
  background-color: #e8f2e5;
 }
 
+/*Dunkelgrüner Kopfbereich*/
+header {
+ background-color: '24543d;
+ color: white;
+ padding:20px;
+}
+
 body{}
  
 /* Themenkacheln */
