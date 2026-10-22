@@ -65,6 +65,7 @@ nav a {
 body { 
  margin: 0;
  font-line: Arial, sans-serif;
+ text-align: center;
 }
 
 /* Abstand für den Hauptinhalt */
