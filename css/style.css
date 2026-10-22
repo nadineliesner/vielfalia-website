@@ -38,22 +38,22 @@ nav a {
 }
 
 /* Sechs unterschiedliche Farben */
-.kachel(1) > .kachel:nth-child(1) {
+.kacheln> .kachel:nth-child(1) {
  background-color: #e8ddf8;
 }
-.kachel(2) > .kachel:nth-child(2) {
+.kacheln > .kachel:nth-child(2) {
  background-color: #fff0c8;
 }
- .kachel(3) > .kachel:nth-child(3) {
+ .kacheln > .kachel:nth-child(3) {
  background-color: #d8eeff;
 }
- .kachel(4) > .kachel:nth-child(4) {
+ .kacheln > .kachel:nth-child(4) {
  background-color: #d9f1e2;
 }
- .kachel(5)> .kachel:nth-child(5) {
+ .kacheln > .kachel:nth-child(5) {
  background-color: #ffe0e7;
 }
- .kachel(6) >.kachel:nth-child(6) {
+ .kacheln >.kachel:nth-child(6) {
  background-color: #e9defa;
 }
  
