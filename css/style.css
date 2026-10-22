@@ -1,1 +1,12 @@
+/* Startseite*/
+.startseite {
+ background-color: #e8f2e5;
+}
+
+body{
+ 
+/* Themenkacheln */
+.kacheln {
+  display: grid; 
+
 
