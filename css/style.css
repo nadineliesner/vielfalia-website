@@ -95,17 +95,13 @@ main{
   .kachel {
   padding:20px;
   border-radius: 20px;
-  border: none;
-  gap: 20px;
   min-height: 150px;
   box-sizing: border-box;
-  }
-
-/* Gestaltung der Kachel */
-.kachel a {
+  text-align: center;
   text-decoration: none;
   color: inherit;
-}
+  }
+
 
 
 
