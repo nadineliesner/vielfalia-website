@@ -69,7 +69,6 @@ nav a {
  .kacheln >.kachel:nth-child(6) {
  background-color: #e9defa;
 }
- 
 
 /* Bilder in den Kacheln */
 .kachel img {
@@ -85,31 +84,21 @@ body {
  font-line: Arial, sans-serif;
 }
 
-
 /* Abstand für den Hauptinhalt */
 main{
  max-width: 1100px;
  margin: auto;
  padding: 24px;
 }
- 
- /* Gestaltung einer einzelnen Kachel */
- .kachel {
-  padding: 20px;
-  gap: 20px;
-  border-radius: 15px;
-  min-height: 150px;
-  box-sizing: border-box;
-}
- 
- /* Auf kleinen Bildschirme */
-
 
  /* Grundgestaltung */
   .kachel {
   padding:20px;
   border-radius: 20px;
   border: none;
+  gap: 20px;
+  min-height: 150px;
+  box-sizing: border-box;
   }
 
 
