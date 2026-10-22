@@ -50,7 +50,7 @@ main{
  padding: 24px;
 }
  
-/* Test: Alle sechs Kacheln nebeneinander */
+/* Alle sechs Kacheln nebeneinander */
 .kacheln {
   display: grid;
   grid-template-columns: repeat (
@@ -65,3 +65,14 @@ main{
   padding:20px;
   border-radius: 20px;
 }
+
+ /* Anordung der sechs Kacheln */
+.kacheln {
+ display: grid;
+  grid-template-columns: repeat (3,1fr)
+  gap: 20px;
+  padding: 20px;
+}
+ 
+ /* Auf kleinen Bildschirme */
+
