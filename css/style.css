@@ -10,6 +10,14 @@ header {
  padding:20px;
 }
 
+/* Navigation */
+nav a {
+ color: white;
+ display: inline-block;
+ padding: 12px;
+ font-weight: bold;
+}
+
 /* Platz für spätere Illustrationen */
 .bildplatzhalter {
   background-color: #d6c4ef;
@@ -20,7 +28,25 @@ header {
   justify-content: center;
   front-size: 40px;
 }
- 
+
+ /* Anordung der sechs Kacheln */
+.kacheln {
+ display: grid;
+  grid-template-columns: repeat (3,1fr)
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Alle sechs Kacheln nebeneinander */
+.kacheln {
+  display: grid;
+  grid-template-columns: repeat (
+   auto-fit, minmax (220pyx,1fr)
+   );
+  gap: 20px;
+  padding: 20px;
+}
+
 /* Bilder in den Kacheln */
 .kachel img {
   width: 100%;
@@ -35,43 +61,19 @@ body {
  font-line: Arial, sans-serif;
 }
 
-/* Navigation */
-nav a {
- color: white;
- display: inline-block;
- padding: 12px;
- font-weight: bold;
-}
 
-/* Abstand f+r den Hauptinhalt */
+/* Abstand für den Hauptinhalt */
 main{
  max-width: 1100px;
  margin: auto;
  padding: 24px;
 }
  
-/* Alle sechs Kacheln nebeneinander */
-.kacheln {
-  display: grid;
-  grid-template-columns: repeat (
-   auto-fit, minmax (220pyx,1fr)
-   );
-  gap: 20px;
-  padding: 20px;
-
  /* Gestaltung einer einzelnen Kachel */
  .kachel {
   background-color: #e8ddf8;
   padding:20px;
   border-radius: 20px;
-}
-
- /* Anordung der sechs Kacheln */
-.kacheln {
- display: grid;
-  grid-template-columns: repeat (3,1fr)
-  gap: 20px;
-  padding: 20px;
 }
  
  /* Auf kleinen Bildschirme */
