@@ -3,7 +3,7 @@
  background-color: #e8f2e5;
 }
 
-/*Dunkelgrüner Kopfbereich*/
+/* Dunkelgrüner Kopfbereich */
 header {
  background-color: #24543d;
  color: white;
@@ -15,3 +15,25 @@ header {
   display: grid;
   gap: 20px;
 }
+
+/* Schrift und Seitenabstand */
+body { 
+ margin: 0;
+ font-line: Arial, sans-serif;
+}
+
+/* Navigation */
+nav a {
+ color: white;
+ display: inline-block;
+ padding: 12px;
+ font-weight: bold;
+}
+
+/* Abstand f+r den Hauptinhalt */
+main{
+ max-width: 1100px;
+ margin: auto;
+ padding: 24px;
+}
+ 
