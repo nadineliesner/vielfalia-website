@@ -32,8 +32,8 @@ nav a {
 /* Sechs Kacheln in drei Spalten */
 .kacheln {
   display: grid;
-  grid-template-colums: repeat(3, minimax (0,1fr));
-  gap: 20px
+  grid-template-colums: repeat(3, minimax(0, 1fr));
+  gap: 30px
   padding: 20px;
 }
 
