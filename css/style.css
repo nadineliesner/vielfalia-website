@@ -18,6 +18,14 @@ nav a {
  font-weight: bold;
 }
 
+/* Bild auf Startseite */
+.titelbild {
+  display: block;
+  width: 100%;
+  height: 220px;
+  onjekt-fit: cover;
+}
+
 /* Platz für spätere Illustrationen */
 .bildplatzhalter {
   background-color: #d6c4ef;
