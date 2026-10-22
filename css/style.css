@@ -3,10 +3,10 @@
  background-color: #e8f2e5;
 }
 
-body{
+body{}
  
 /* Themenkacheln */
 .kacheln {
-  display: grid; 
-
-
+  display: grid;
+  gap: 20px;
+}
