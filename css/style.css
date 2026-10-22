@@ -47,6 +47,27 @@ nav a {
   padding: 20px;
 }
 
+/* Sechs unterschiedliche Farben */
+.kachel:nth-child (1) {
+ background-color: #e8ddf8;
+}
+.kachel:nth-child (2) {
+ background-color: #fff0c8;
+}
+ .kachel:nth-child (3) {
+ background-color: #d8eeff;
+}
+ .kachel:nth-child (4) {
+ background-color: #d9f1e2;
+}
+ .kachel:nth-child (5) {
+ background-color: #ffe0e7;
+}
+  .kachel:nth-child (6) {
+ background-color: #e9defa;
+}
+ 
+
 /* Bilder in den Kacheln */
 .kachel img {
   width: 100%;
@@ -86,23 +107,4 @@ main{
   border: none;
   }
 
-/* Sechs unterschiedliche Farben */
-.kachel:nth-child (1) {
- background-color: #e8ddf8;
-}
-.kachel:nth-child (2) {
- background-color: #fff0c8;
-}
- .kachel:nth-child (3) {
- background-color: #d8eeff;
-}
- .kachel:nth-child (4) {
- background-color: #d9f1e2;
-}
- .kachel:nth-child (5) {
- background-color: #ffe0e7;
-}
-  .kachel:nth-child (6) {
- background-color: #e9defa;
-}
- 
+
