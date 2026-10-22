@@ -26,44 +26,34 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
-  front-size: 40px;
+  font-size: 40px;
 }
 
- /* Anordung der sechs Kacheln */
-.kacheln {
- display: grid;
-  grid-template-columns: repeat (3,1fr)
-  gap: 20px;
-  padding: 20px;
-}
-
-/* Alle sechs Kacheln nebeneinander */
+/* Sechs Kacheln in drei Spalten */
 .kacheln {
   display: grid;
-  grid-template-columns: repeat (
-   auto-fit, minmax (220pyx,1fr)
-   );
-  gap: 20px;
+  grid-template-colums: repeat(3, minimax (0,1fr));
+  gap: 20px
   padding: 20px;
 }
 
 /* Sechs unterschiedliche Farben */
-.kachel:nth-child (1) {
+.kacheln> .kachel:nth-child (1) {
  background-color: #e8ddf8;
 }
-.kachel:nth-child (2) {
+.kacheln> .kachel:nth-child (2) {
  background-color: #fff0c8;
 }
- .kachel:nth-child (3) {
+ .kacheln> .kachel:nth-child (3) {
  background-color: #d8eeff;
 }
- .kachel:nth-child (4) {
+ .kacheln> .kachel:nth-child (4) {
  background-color: #d9f1e2;
 }
- .kachel:nth-child (5) {
+ .kacheln> .kachel:nth-child (5) {
  background-color: #ffe0e7;
 }
-  .kachel:nth-child (6) {
+ .kacheln>.kachel:nth-child (6) {
  background-color: #e9defa;
 }
  
