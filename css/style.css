@@ -11,6 +11,16 @@ header {
 }
 
 /* Navigation */
+
+nav {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 15px; 
+}
+
 nav a {
  color: white;
  display: inline-block;
@@ -27,7 +37,7 @@ nav a {
  gap: 5px
 }
 
-.nav symbol {
+.nav-symbol {
  font-size: 28px;
 }
 
