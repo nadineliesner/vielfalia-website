@@ -57,6 +57,10 @@ nav a {
  font-size:18px;
 }
 
+.suchfeld label {
+ font-size: 32px;
+}
+
 /* Bild auf Startseite */
 .titelbild {
   display: block;
