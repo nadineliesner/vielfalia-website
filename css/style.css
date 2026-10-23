@@ -20,6 +20,16 @@ nav a {
  text-decoration: none;
  text-align: center;
 }
+nav a { 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 5px
+}
+
+.nav symbol {
+ font-size: 28px;
+}
 
 /* Bild auf Startseite */
 .titelbild {
