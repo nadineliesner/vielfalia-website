@@ -72,24 +72,3 @@ nav a {
  .kacheln >.kachel:nth-child(6) {
  background-color: #e9defa;
 }
-
-/* Schrift und Seitenabstand */
-body { 
- margin: 0;
- font-line: Arial, sans-serif;
- text-align: center;
-}
-
-/* Abstand für den Hauptinhalt */
-main{
- max-width: 1100px;
- margin: auto;
- padding: 24px;
-}
-
-
-
-
-
-
-
