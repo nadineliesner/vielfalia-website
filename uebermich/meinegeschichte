@@ -1,1 +1,354 @@
 
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+
+  <title>Meine Geschichte – Vielfalia</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="meine-geschichte" id="seitenanfang">
+
+<header class="kopfzeile">
+
+  <h1>Anderssein ist auch eine Stärke</h1>
+
+  <nav aria-label="Hauptnavigation">
+
+    <a href="index.html">
+      <span class="nav-symbol">🏠</span>
+      <span>Start</span>
+    </a>
+
+    <a href="entdecken.html">
+      <span class="nav-symbol">🧭</span>
+      <span>Entdecken</span>
+    </a>
+
+    <a href="spielen.html">
+      <span class="nav-symbol">🧩</span>
+      <span>Spielen</span>
+    </a>
+
+    <a href="staerken.html">
+      <span class="nav-symbol">⭐</span>
+      <span>Stärken</span>
+    </a>
+
+    <a href="ueber-mich.html" aria-current="page">
+      <span class="nav-symbol">📖</span>
+      <span>Über mich</span>
+    </a>
+
+    <a href="alltag.html">
+      <span class="nav-symbol">🎒</span>
+      <span>Alltag</span>
+    </a>
+
+    <a href="hilfe.html">
+      <span class="nav-symbol">💚</span>
+      <span>Hilfe</span>
+    </a>
+
+    <form role="search" action="suche.html" method="get">
+      <label for="suche">🔍 Suche</label>
+      <input type="search"
+             id="suche"
+             name="q"
+             placeholder="Suchbegriff eingeben">
+      <button type="submit">Suchen</button>
+    </form>
+
+  </nav>
+</header>
+
+<main id="hauptinhalt">
+
+  <section class="willkommen">
+
+    <h2>📖 Meine Geschichte</h2>
+
+    <img src="bilder/meine-geschichte.jpg"
+         alt="Ein bunter Weg durch verschiedene Lebensabschnitte">
+
+    <p>
+      Hallo, ich bin Nadine!
+    </p>
+
+    <p>
+      Mein Leben verlief nicht immer geradeaus.
+      Es gab schöne Momente, neue Wege
+      und schwierige Zeiten.
+      Doch jede Erfahrung gehört zu meiner Geschichte.
+    </p>
+
+    <p>
+      Hier möchte ich dir erzählen,
+      wie ich zu dem Menschen geworden bin,
+      der ich heute bin.
+    </p>
+
+  </section>
+
+  <section class="themen"
+           aria-labelledby="lebensweg">
+
+    <h2 id="lebensweg">Mein Lebensweg</h2>
+
+    <div class="kachel-container">
+
+      <article class="kachel kachel-1">
+
+        <span class="kachel-symbol"
+              aria-hidden="true">🧸</span>
+
+        <h3>Meine Kindheit</h3>
+
+        <p>
+          Schon als Kind habe ich die Welt
+          auf meine eigene Weise entdeckt.
+        </p>
+
+        <p>
+          Im heilpädagogischen Kindergarten
+          durfte ich viele Dinge ausprobieren.
+          Besonders schön fand ich das Reiten,
+          den Snoezelen-Raum und kreative Angebote.
+        </p>
+
+        <p>
+          Diese Erfahrungen haben meine Neugier
+          und meine Fantasie geprägt.
+        </p>
+
+      </article>
+
+      <article class="kachel kachel-2">
+
+        <span class="kachel-symbol"
+              aria-hidden="true">🎒</span>
+
+        <h3>Meine Schulzeit</h3>
+
+        <p>
+          Schule war für mich eine Zeit
+          mit vielen unterschiedlichen Erfahrungen.
+        </p>
+
+        <p>
+          Ich habe gerne Neues entdeckt,
+          am Computer gearbeitet
+          und kreative Aufgaben ausprobiert.
+        </p>
+
+        <p>
+          Gleichzeitig habe ich erlebt,
+          wie schwierig es sein kann,
+          sich anders als andere zu fühlen.
+        </p>
+
+        <p>
+          Heute weiß ich:
+          Nicht alle Menschen lernen auf dieselbe Weise.
+          Und das ist in Ordnung.
+        </p>
+
+      </article>
+
+      <article class="kachel kachel-3">
+
+        <span class="kachel-symbol"
+              aria-hidden="true">🛠️</span>
+
+        <h3>Mein beruflicher Weg</h3>
+
+        <p>
+          Mein Weg ins Berufsleben
+          hatte verschiedene Stationen.
+        </p>
+
+        <p>
+          Ich habe mich mit sozialen Berufen
+          beschäftigt und eine Ausbildung
+          in der Orthopädietechnik gemacht.
+        </p>
+
+        <p>
+          Dabei konnte ich viel über Menschen,
+          Hilfsmittel und unterschiedliche
+          Bedürfnisse lernen.
+        </p>
+
+        <p>
+          Mit der Zeit habe ich gemerkt,
+          dass ich gerne praktische,
+          kreative und soziale Ideen verbinde.
+        </p>
+
+      </article>
+
+      <article class="kachel kachel-4">
+
+        <span class="kachel-symbol"
+              aria-hidden="true">🌱</span>
+
+        <h3>Meine Herausforderungen</h3>
+
+        <p>
+          Nicht alles in meinem Leben
+          war einfach.
+        </p>
+
+        <p>
+          Ich musste manchmal neue Wege suchen,
+          Entscheidungen treffen
+          und mit Veränderungen umgehen.
+        </p>
+
+        <p>
+          Dabei habe ich gelernt,
+          dass Menschen unterschiedliche
+          Unterstützung benötigen.
+        </p>
+
+        <p>
+          Hilfe anzunehmen ist keine Schwäche.
+          Jeder Mensch darf seinen eigenen Weg gehen.
+        </p>
+
+      </article>
+
+      <article class="kachel kachel-5">
+
+        <span class="kachel-symbol"
+              aria-hidden="true">🎓</span>
+
+        <h3>Mein Weg zum Studium</h3>
+
+        <p>
+          Im Jahr 2026 habe ich
+          ein neues Kapitel begonnen.
+        </p>
+
+        <p>
+          Ich studiere Medieninformatik
+          und Interaktives Entertainment
+          an der Hochschule Mittweida.
+        </p>
+
+        <p>
+          Besonders interessieren mich
+          interaktive Geschichten,
+          digitale Erlebnisse,
+          Lernspiele und neue Technologien.
+        </p>
+
+        <p>
+          Ich möchte lernen,
+          wie man Technik und Kreativität
+          sinnvoll miteinander verbindet.
+        </p>
+
+      </article>
+
+      <article class="kachel kachel-6">
+
+        <span class="kachel-symbol"
+              aria-hidden="true">🌈</span>
+
+        <h3>Meine Träume und Ziele</h3>
+
+        <p>
+          Ich wünsche mir eine Welt,
+          in der sich Menschen willkommen fühlen.
+        </p>
+
+        <p>
+          Eine Welt, in der Unterschiede
+          nicht nur akzeptiert,
+          sondern auch als Stärken erkannt werden.
+        </p>
+
+        <p>
+          Mit Vielfalia möchte ich
+          einen Ort zum Entdecken,
+          Spielen und Lernen schaffen.
+        </p>
+
+        <p>
+          Denn jeder Mensch ist einzigartig.
+          Und jeder Mensch hat etwas Wertvolles
+          zu unserer Welt beizutragen.
+        </p>
+
+      </article>
+
+    </div>
+
+  </section>
+
+  <section class="willkommen">
+
+    <h2>💚 Warum ich Vielfalia gestalte</h2>
+
+    <p>
+      Ich möchte zeigen,
+      dass Anderssein nichts Schlechtes ist.
+    </p>
+
+    <p>
+      Wir alle haben unterschiedliche
+      Fähigkeiten, Wünsche und Bedürfnisse.
+    </p>
+
+    <p>
+      Vielfalia soll Mut machen,
+      Fragen beantworten
+      und Menschen miteinander verbinden.
+    </p>
+
+    <p>
+      <strong>
+        Ich bin anders.
+        Ich bin stark.
+        Ich bin ich!
+      </strong>
+    </p>
+
+  </section>
+
+  <p>
+    <a href="ueber-mich.html">
+      ← Zurück zu Über mich
+    </a>
+  </p>
+
+</main>
+
+<footer class="fusszeile">
+
+  <p>
+    Studienprojekt Webprogrammierung
+    von Nadine Liesner
+  </p>
+
+  <p>
+    <a href="datenschutz.html">Datenschutz</a>
+    ·
+    <a href="impressum.html">Impressum</a>
+    ·
+    <a href="#seitenanfang">Nach oben ↑</a>
+  </p>
+
+  <p>© 2026 Vielfalia</p>
+
+</footer>
+
+</body>
+</html>
+
