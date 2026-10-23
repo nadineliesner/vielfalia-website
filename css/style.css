@@ -71,10 +71,11 @@ nav input[type="search"] {
 /* Bild auf Startseite */
 .titelbild {
   display: block;
-  width: 100%;
-  height: 220px;
   onjekt-fit: cover;
+  max-width: 100%;
+  height: auto;
 }
+
 
 /* Schrift und Seitenabstand */
 body { 
@@ -105,6 +106,20 @@ body {
   text-decoration: none;
   color: inherit;
   }
+
+.kacheln {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    position: relative;
+    min-width: 0;
+    min-height: 0;
+    padding: 15px;
+    border-radius: 20px;
+}
 
 /* Sechs unterschiedliche Farben */
 .kacheln> .kachel:nth-child(1) {
