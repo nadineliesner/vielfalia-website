@@ -420,3 +420,78 @@ nav input[type="search"] {
     height: 40px;
     font-size: 24px;
 }
+
+
+/* =====================================
+   KACHELFARBEN – VIELFALIA
+   ===================================== */
+
+/* 1. Entdecken – Lila */
+.kacheln > .kachel:nth-child(1) {
+    background-color: #D8C4F0;
+}
+
+/* 2. Stärken – Gelb */
+.kacheln > .kachel:nth-child(2) {
+    background-color: #FFE69A;
+}
+
+/* 3. Spielen – Grün */
+.kacheln > .kachel:nth-child(3) {
+    background-color: #B8DEA8;
+}
+
+/* 4. Über mich – Braun */
+.kacheln > .kachel:nth-child(4) {
+    background-color: #D6AE91;
+}
+
+/* 5. Alltag – Grau */
+.kacheln > .kachel:nth-child(5) {
+    background-color: #D5D9DE;
+}
+
+/* 6. Hilfe – Blau */
+.kacheln > .kachel:nth-child(6) {
+    background-color: #A9D5F5;
+}
+
+
+/* =====================================
+   FARBEN DER RUNDEN PFEILE
+   ===================================== */
+
+/* Entdecken */
+.kacheln > .kachel:nth-child(1) .kachel-pfeil {
+    background-color: #684399;
+}
+
+/* Stärken */
+.kacheln > .kachel:nth-child(2) .kachel-pfeil {
+    background-color: #8A6000;
+}
+
+/* Spielen */
+.kacheln > .kachel:nth-child(3) .kachel-pfeil {
+    background-color: #326B3B;
+}
+
+/* Über mich */
+.kacheln > .kachel:nth-child(4) .kachel-pfeil {
+    background-color: #795038;
+}
+
+/* Alltag */
+.kacheln > .kachel:nth-child(5) .kachel-pfeil {
+    background-color: #46515E;
+}
+
+/* Hilfe */
+.kacheln > .kachel:nth-child(6) .kachel-pfeil {
+    background-color: #245D91;
+}
+
+/* Weiße Pfeilsymbole */
+.kachel-pfeil {
+    color: white;
+}
