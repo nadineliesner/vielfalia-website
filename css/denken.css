@@ -1,0 +1,344 @@
+
+/* =====================================
+   VIELFALIA – DENKEN & LERNEN
+   ===================================== */
+
+/* GRUNDEINSTELLUNGEN */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f8f1;
+  color: #26382c;
+  line-height: 1.6;
+}
+
+/* KOPFZEILE */
+
+.kopfzeile {
+  background-color: #214d36;
+  color: white;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.kopfzeile h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: white;
+}
+
+/* NAVIGATION */
+
+.kopfzeile nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.kopfzeile nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.kopfzeile nav a:hover {
+  color: #ffe8a3;
+}
+
+.nav-symbol {
+  font-size: 1.6rem;
+}
+
+/* SUCHFELD */
+
+.kopfzeile form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.kopfzeile input[type="search"] {
+  width: 220px;
+  max-width: 100%;
+  padding: 12px;
+  border: 2px solid white;
+  border-radius: 12px;
+  font-size: 1rem;
+}
+
+.kopfzeile button {
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background-color: #d9edce;
+  color: #214d36;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* HAUPTINHALT */
+
+main {
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* WILLKOMMENSBEREICH */
+
+.willkommen {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.willkommen h2 {
+  color: #214d36;
+  font-size: 2rem;
+}
+
+.willkommen p {
+  max-width: 850px;
+  margin: 15px auto;
+  font-size: 1.1rem;
+}
+
+/* TITELBILD */
+
+.willkommen img {
+  display: block;
+  width: 100%;
+  max-width: 850px;
+  height: auto;
+  margin: 25px auto;
+  border-radius: 22px;
+}
+
+/* THEMENBEREICH */
+
+.themen {
+  margin-top: 35px;
+}
+
+.themen > h2 {
+  text-align: center;
+  color: #214d36;
+  margin-bottom: 25px;
+}
+
+/* KACHELANORDNUNG */
+
+.kachel-container,
+.kacheln {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 25px;
+}
+
+/* KACHELN */
+
+.kachel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  min-width: 0;
+  min-height: 240px;
+  padding: 25px;
+
+  border-radius: 22px;
+  text-decoration: none;
+  color: #26382c;
+
+  box-shadow: 0 4px 12px
+    rgba(0, 0, 0, 0.10);
+
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+
+/* SECHS KACHELFARBEN */
+
+.kachel-1 {
+  background-color: #f9dce4;
+}
+
+.kachel-2 {
+  background-color: #fce6bd;
+}
+
+.kachel-3 {
+  background-color: #fff1b9;
+}
+
+.kachel-4 {
+  background-color: #d9edce;
+}
+
+.kachel-5 {
+  background-color: #d6e8fa;
+}
+
+.kachel-6 {
+  background-color: #e8dcf7;
+}
+
+/* KACHELSYMBOLE */
+
+.kachel-symbol {
+  font-size: 2.8rem;
+  margin-bottom: 12px;
+}
+
+/* KACHELÜBERSCHRIFTEN */
+
+.kachel h2,
+.kachel h3 {
+  color: #214d36;
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+/* KACHELTEXTE */
+
+.kachel p {
+  font-size: 1rem;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+/* PFEILE */
+
+.pfeil,
+.kachel-pfeil {
+  font-size: 1.8rem;
+  color: #214d36;
+  margin-top: 15px;
+}
+
+/* MAUS-EFFEKT */
+
+.kachel:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px
+    rgba(0, 0, 0, 0.15);
+}
+
+/* TASTATURBEDIENUNG */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #e29b20;
+  outline-offset: 4px;
+}
+
+/* ZURÜCK-LINK */
+
+main > p > a {
+  display: inline-block;
+  margin-top: 30px;
+  color: #214d36;
+  font-weight: bold;
+}
+
+/* FUSSZEILE */
+
+.fusszeile {
+  background-color: #214d36;
+  color: white;
+  padding: 25px 20px;
+  text-align: center;
+}
+
+.fusszeile a {
+  color: white;
+  text-decoration: underline;
+}
+
+.fusszeile a:hover {
+  color: #ffe8a3;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  .kachel-container,
+  .kacheln {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .kopfzeile {
+    justify-content: center;
+  }
+
+  .kopfzeile nav {
+    justify-content: center;
+  }
+}
+
+/* SMARTPHONE */
+
+@media (max-width: 600px) {
+
+  .kachel-container,
+  .kacheln {
+    grid-template-columns: 1fr;
+  }
+
+  .kopfzeile {
+    padding: 15px;
+  }
+
+  .willkommen h2 {
+    font-size: 1.6rem;
+  }
+
+  .kachel {
+    min-height: 200px;
+  }
+
+  main {
+    padding: 20px 15px;
+  }
+}
+
+/* WENIGER BEWEGUNG */
+
+@media (prefers-reduced-motion: reduce) {
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  .kachel {
+    transition: none;
+  }
+
+  .kachel:hover {
+    transform: none;
+  }
+}
