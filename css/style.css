@@ -125,3 +125,39 @@ body {
  text-align: center;
  margin-bottom: 15px;
 }
+.kachel-pfeil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background-color: #244C3A;
+    color: white;
+    border-radius: 50%;
+    font-size: 28px;
+    margin: 15px auto 0;
+}
+.kachel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #222222;
+    cursor: pointer;
+}
+
+.kachel:hover {
+    transform: translateY(-4px);
+}
+
+.kachel:focus-visible {
+    outline: 3px solid #173F2E;
+    outline-offset: 4px;
+}
+
+.kachel .mehr {
+    margin-top: auto;
+    padding-top: 15px;
+    font-weight: bold;
+}
