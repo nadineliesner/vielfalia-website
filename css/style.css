@@ -92,31 +92,22 @@ nav input[type="search"] {
     object-position: center;
 }
 
-/* Text auf dem Bild */
-.willkommen-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    width: 80%;
-    max-width: 650px;
-    padding: 15px;
-
-    background-color: rgba(255, 255, 255, 0.85);
-    color: #244C3A;
-    border-radius: 20px;
-
-    font-size: clamp(20px, 3vw, 30px);
+.willkommensspruch {
     text-align: center;
+    padding: 20px 15px;
+    color: #244C3A;
 }
 
-/* Titelbild mit Text */
-.willkommen {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
+.willkommensspruch h2 {
+    font-size: clamp(22px, 3vw, 32px);
+    margin: 0 0 10px;
 }
+
+.willkommensspruch p {
+    font-size: clamp(17px, 2vw, 22px);
+    margin: 0;
+}
+
 
 .willkommen .titelbild {
     display: block;
