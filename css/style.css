@@ -72,8 +72,9 @@ nav input[type="search"] {
 .titelbild {
     display: block;
     width: 100%;
-    max-height: 140px;
+    height: 120px;
     object-fit: cover;
+    margin: 0 auto;
 }
 
 /* Schrift und Seitenabstand */
