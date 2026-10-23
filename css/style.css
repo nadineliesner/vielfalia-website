@@ -41,6 +41,22 @@ nav a {
  font-size: 28px;
 }
 
+/* Suchfeld */
+.suchfeld {
+ display: flex;
+ align-items: center;
+ gap: 5px;
+ margin: 0 10px
+}
+
+.suchfeld input {
+ width: 110px;
+ padding: 8px;
+ border: none;
+ border-radius: 8px;
+ font-size:14px;
+}
+
 /* Bild auf Startseite */
 .titelbild {
   display: block;
