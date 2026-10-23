@@ -114,8 +114,8 @@ body {
  background-color: #fff0c8;
 }
  .kacheln > .kachel:nth-child(3) {
- background-color: #d8eeff;
-}
+ background-color: #cff1ef;
+ }
  .kacheln > .kachel:nth-child(4) {
  background-color: #d9f1e2;
 }
