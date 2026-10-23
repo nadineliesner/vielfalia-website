@@ -182,3 +182,25 @@ nav input[type="search"] {
     border-radius: 15px;
     box-sizing: border-box;
 }
+
+
+/* Dunkelgrüner Fußbereich*/
+footer {
+    background-color: #244C3A;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+footer a:focus-visible {
+    outline: 3px solid white;
+    outline-offset: 4px;
+}
