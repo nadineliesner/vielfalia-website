@@ -11,24 +11,24 @@ header {
 }
 
 /* Navigation */
-
-nav {
+.kopfzeile nav {
  display: flex;
  flex-direction: row;
- justify-content: center;
+ justify-content: flex-end;
  align-items: center;
  flex-wrap: wrap;
  gap: 15px; 
 }
 
-nav a {
+.kopfzeile nav a {
  color: white;
- display: inline-block;
+ display: flex;
  padding: 12px;
  font-size: 18px;
  font-weight: bold;
- text-decoration: none;
+ text-decoration: column;
  text-align: center;
+ gap: 5px;
 }
 nav a { 
  display: flex;
