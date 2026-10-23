@@ -147,25 +147,6 @@ body {
   color: inherit;
   }
 
-/* Sechs unterschiedliche Farben */
-.kacheln> .kachel:nth-child(1) {
- background-color: #e8ddf8;
-}
-.kacheln > .kachel:nth-child(2) {
- background-color: #fff0c8;
-}
- .kacheln > .kachel:nth-child(3) {
- background-color: #cff1ef;
- }
- .kacheln > .kachel:nth-child(4) {
- background-color: #d9f1e2;
-}
- .kacheln > .kachel:nth-child(5) {
- background-color: #ffe0e7;
-}
- .kacheln >.kachel:nth-child(6) {
- background-color: #ffe4d3;
-}
 
 .kachel-symbol {
  display: block;
@@ -219,32 +200,6 @@ body {
     font-size: 28px;
     margin: 15px auto 0;
     margin-top: auto;
-}
-
-/* Pfeilfarben der sechs Kacheln */
-
-.kachel:nth-child(1) .kachel-pfeil {
-    background-color: #6545A4;
-}
-
-.kachel:nth-child(2) .kachel-pfeil {
-    background-color: #A86C08;
-}
-
-.kachel:nth-child(3) .kachel-pfeil {
-    background-color: #216F49;
-}
-
-.kachel:nth-child(4) .kachel-pfeil {
-    background-color: #276CA4;
-}
-
-.kachel:nth-child(5) .kachel-pfeil {
-    background-color: #B13F64;
-}
-
-.kachel:nth-child(6) .kachel-pfeil {
-    background-color: #7046A5;
 }
 
 /* Dunkelgrüner Fußbereich*/
