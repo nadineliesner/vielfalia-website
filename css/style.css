@@ -15,6 +15,7 @@ nav a {
  color: white;
  display: inline-block;
  padding: 12px;
+ font-size: 18px;
  font-weight: bold;
  text-decoration: none;
  text-align: center;
@@ -40,6 +41,17 @@ nav a {
   margin: 30px auto;
   box-sitzing: border-box;
  }
+
+ /* Grundgestaltung */
+  .kachel {
+  padding:20px;
+  border-radius: 20px;
+  min-height: 150px;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  }
 
 /* Sechs unterschiedliche Farben */
 .kacheln> .kachel:nth-child(1) {
@@ -75,16 +87,7 @@ main{
  padding: 24px;
 }
 
- /* Grundgestaltung */
-  .kachel {
-  padding:20px;
-  border-radius: 20px;
-  min-height: 150px;
-  box-sizing: border-box;
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
-  }
+
 
 
 
