@@ -449,6 +449,21 @@ nav input[type="search"] {
     color: white;
 }
 
+/* Einheitliche Anordnung der Kacheln */
+.kachel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+/* Pfeil immer nach unten schieben */
+.kachel .pfeil {
+  margin-top: auto;
+}
+
 
 .footer-links {
     display: flex;
