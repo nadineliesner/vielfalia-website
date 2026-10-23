@@ -145,6 +145,15 @@ body {
     outline-offset: 4px;
 }
 
+.kachel {
+    justify-content: flex-start;
+    gap: 15px;
+    min-height: 280px;
+    height: auto;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
 .kachel.mehr {
     margin-top: auto;
     padding-top: 15px;
@@ -161,4 +170,5 @@ body {
     border-radius: 50%;
     font-size: 28px;
     margin: 15px auto 0;
+    margin-top: auto;
 }
