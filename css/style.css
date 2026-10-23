@@ -108,7 +108,6 @@ nav input[type="search"] {
     margin: 0;
 }
 
-
 .willkommen .titelbild {
     display: block;
     width: 100%;
@@ -384,14 +383,14 @@ nav input[type="search"] {
     background-color: #D8C4F0;
 }
 
-/* 2. Stärken – Gelb */
-.kacheln > .kachel:nth-child(2) {
-    background-color: #FFE69A;
-}
-
-/* 3. Spielen – Grün */
+/* 2. Spielen – Grün */
 .kacheln > .kachel:nth-child(3) {
     background-color: #B8DEA8;
+}
+
+/* 3. Stärken – Gelb */
+.kacheln > .kachel:nth-child(2) {
+    background-color: #FFE69A;
 }
 
 /* 4. Über mich – Braun */
@@ -419,14 +418,14 @@ nav input[type="search"] {
     background-color: #684399;
 }
 
-/* Stärken */
-.kacheln > .kachel:nth-child(2) .kachel-pfeil {
-    background-color: #8A6000;
-}
-
 /* Spielen */
 .kacheln > .kachel:nth-child(3) .kachel-pfeil {
     background-color: #326B3B;
+}
+
+/* Stärken */
+.kacheln > .kachel:nth-child(2) .kachel-pfeil {
+    background-color: #8A6000;
 }
 
 /* Über mich */
