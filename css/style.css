@@ -72,7 +72,7 @@ nav input[type="search"] {
 .titelbild {
     display: block;
     width: 100%;
-    height: 120px;
+    height: 10px;
     object-fit: cover;
     margin: 0 auto;
 }
@@ -88,7 +88,7 @@ body {
 .kacheln {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 16px;
+    gap: 10px;
     width: 95%;
     max-width: 1100px;
     margin: 12px auto;
@@ -97,9 +97,9 @@ body {
 
  /* Grundgestaltung */
   .kachel {
-  padding:20px;
+  padding:30px;
   border-radius: 20px;
-  min-height: 150px;
+  min-height: 30px;
   box-sizing: border-box;
   text-align: center;
   text-decoration: none;
