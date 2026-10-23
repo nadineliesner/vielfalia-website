@@ -39,7 +39,7 @@ body {
 /* Sechs Kacheln in drei Spalten */
 .kacheln {
   display: grid;
-  grid-template-colums: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 40px;
   width: 100%;
   max-width: 1100px;
