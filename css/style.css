@@ -150,7 +150,6 @@ body {
     padding-top: 15px;
     font-weight: bold;
 }
-
 .kachel-pfeil {
     display: flex;
     justify-content: center;
@@ -163,4 +162,3 @@ body {
     font-size: 28px;
     margin: 15px auto 0;
 }
-
