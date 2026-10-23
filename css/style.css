@@ -118,3 +118,10 @@ body {
  .kacheln >.kachel:nth-child(6) {
  background-color: #e9defa;
 }
+
+.kachel-symboly {
+ display: block;
+ font-size: 50px;
+ text-align: center;
+ margin-bottom: 15px;
+}
