@@ -50,11 +50,11 @@ nav a {
 }
 
 .suchfeld input {
- width: 110px;
- padding: 8px;
+ width: 250px;
+ padding: 12px;
  border: none;
- border-radius: 8px;
- font-size:14px;
+ border-radius: 10px;
+ font-size:18px;
 }
 
 /* Bild auf Startseite */
