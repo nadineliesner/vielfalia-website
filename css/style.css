@@ -119,24 +119,13 @@ body {
  background-color: #e9defa;
 }
 
-.kachel-symboly {
+.kachel-symbol {
  display: block;
  font-size: 50px;
  text-align: center;
  margin-bottom: 15px;
 }
-.kachel-pfeil {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 48px;
-    height: 48px;
-    background-color: #244C3A;
-    color: white;
-    border-radius: 50%;
-    font-size: 28px;
-    margin: 15px auto 0;
-}
+
 .kachel {
     display: flex;
     flex-direction: column;
@@ -156,8 +145,22 @@ body {
     outline-offset: 4px;
 }
 
-.kachel .mehr {
+.kachel.mehr {
     margin-top: auto;
     padding-top: 15px;
     font-weight: bold;
 }
+
+.kachel-pfeil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background-color: #244C3A;
+    color: white;
+    border-radius: 50%;
+    font-size: 28px;
+    margin: 15px auto 0;
+}
+
